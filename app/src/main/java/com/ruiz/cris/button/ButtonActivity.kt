@@ -6,7 +6,7 @@ import android.widget.Button
 
 class ButtonActivity : AppCompatActivity() {
 
-    lateinit var btnClick: Button
+    private lateinit var btnClick: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
